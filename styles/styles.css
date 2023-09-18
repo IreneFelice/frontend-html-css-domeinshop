@@ -4,7 +4,7 @@
 artikelen; afbeeldingen, schaduw vervagen, ruimte tussen artikelen
 uitlijning header
 alle faq's toevoegen
-
+knop contact fixen
 */
 
 /*////////////////////////////////////////////////////////////////////////
@@ -33,7 +33,6 @@ Table of Contents:
 body {
     font-family: 'Poppins', sans-serif;
     color: #1C2B32;
-    margin: 10px;
 }
 
 main {
@@ -140,11 +139,11 @@ header {
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
-.testimonials{
-    display: flex;
-    background-color: transparent;
-    flex-direction: column;
-    /*row-gap: 500px;*/
+/*.testimonials{*/
+/*    display: flex;*/
+/*    background-color: transparent;*/
+/*    flex-direction: column;*/
+/*    !*row-gap: 500px;*!*/
 
 /*}*/
 /*.quote{*/
@@ -156,7 +155,7 @@ header {
 /*}*/
 .testimonial-separate1,
 .testimonial-separate2 {
-    margin: 20px 0;
+    margin: 0 0 40px 0;
     padding: 50px;
     border: none;
     border-radius: 10px;
@@ -182,8 +181,11 @@ header {
     border-radius: 10px;
 }
 .support-button{
-margin: 20px 0;
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 10px 15px;
     background-color: #1C2B32;
+    border-radius: 30px;
 }
 
 
@@ -195,21 +197,62 @@ details {
             sans-serif;
 }
 
-.faq > summary {
+.faq1 > summary {
     padding: 2px 6px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 
 }
-.faq > p {
+.faq1 > p {
     color: white;
     border-radius: 10px;
     background-color: #899CA0;
     padding: 20px;
     margin: 10px 1px;
 }
+.faq2 > summary {
+    padding: 2px 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 
+}
+.faq2 > p {
+    color: white;
+    border-radius: 10px;
+    background-color: #899CA0;
+    padding: 20px;
+    margin: 10px 1px;
+}
+.faq3 > summary {
+    padding: 2px 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.faq3 > p {
+    color: white;
+    border-radius: 10px;
+    background-color: #899CA0;
+    padding: 20px;
+    margin: 10px 1px;
+}
+.faq4 > summary {
+    padding: 2px 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.faq4 > p {
+    color: white;
+    border-radius: 10px;
+    background-color: #899CA0;
+    padding: 20px;
+    margin: 10px 1px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
@@ -220,4 +263,7 @@ footer{
     background-color: #1C2B32;
     margin: 50px 0 0 0;
     padding: 20px;
+    border: none;
+    background-size: cover;
+    background-position: bottom;
 }
