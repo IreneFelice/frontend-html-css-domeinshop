@@ -161,13 +161,13 @@ header {
     border-radius: 10px;
     box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.2);
 }
-/*.testimonial-separate1 {*/
-/*    align-self: start;*/
-/*}*/
+.testimonial-icon-quote{
 
-/*.testimonial-separate2 {*/
-/*    align-self: flex-end;*/
-/*}*/
+}
+
+.testimonial-separate2 {
+
+}
 
 /*///////////// 3.3 Support /////////////*/
 .support{;
