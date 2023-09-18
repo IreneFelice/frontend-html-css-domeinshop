@@ -47,6 +47,7 @@ h2{
 font-weight: 700;
     font-size: 32;
 margin: 64px 0;
+    text-align: center;
 }
 
 input,
@@ -133,35 +134,41 @@ header {
 
 /*///////////// 3.2 Testimonial /////////////*/
 .testimonials{
-    color: #1C2B32;
 }
-.quote{
-    font-family: Poppins;
-    font-size: 50px;
-    margin: 0;
-    color: red;
-    /*padding: 20px 0;*/
-}
+/*.quote{*/
+/*    font-family: Poppins;*/
+/*    font-size: 50px;*/
+/*    margin: 0;*/
+/*    color: red;*/
+/*    !*padding: 20px 0;*!*/
+/*}*/
 .testimonial-separate{
 background-color: yellow;
     margin: 20px 0;
     padding: 50px;
     border: 5px solid #1C2B32;
+
 }
 
 /*///////////// 3.3 Support /////////////*/
-main{
-    /*text-align: cente r;*/
+.support{;
 }
-.main-image {
+.support-image {
     position: relative;
     width: 100%;
     height: auto;
     max-width: 100%;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+}
+.support-button{
+margin: 20px 0;
 }
 
 
 /*///////////// 3.4 Faq /////////////*/
+.faq{
 
+}
 
 /*///////////// 3.5 Footer /////////////*/
