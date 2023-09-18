@@ -7,36 +7,54 @@
 
 </head>
 <body>
-<header class="header-section">
-    <picture>
-        <img src="assets/images/mountains.jpg">
-    </picture>
-    <h1>Domein.shop</h1>    <!--    titel-->
-<p>Jouw domeinnaam registreren in slechts 1 minuut!</p>
+<header>
+    <div class="header-content">
+    <h1 class="header-title">Domein.shop</h1>    <!--    titel-->
+<p class="header-text">Jouw domeinnaam registreren in slechts 1 minuut!</p>
 <!--    invulveld met knop-->
-    <label for="is-domein-vrij"></label>
-    <input style="text" id="is-domein-vrij" name="domein-input" placeholder="Is jouw domein nog vrij?"/> <button>Check beschikbaarheid</button>
+    <form class="header-form">
+        <label for="is-domein-vrij">
+            <input class="header-input" minlength="6" style="text" id="is-domein-vrij" name="domein-input" placeholder="Is jouw domein nog vrij?"/>
+        </label>
+        <button type=button class="header-button">Check beschikbaarheid</button>
+    </form>
+    </div>
 </header>
-<!------------------------------------------------------------------------->
+
+<!-------------------------Testimonials--------------------------------------->
+
 <main>
-<section>
+<article class="testimonials">
     <h2>Wat zeggen klanten over ons</h2>
-<article>
+<section class="testimonial-separate">
 <!--    recensie 1-->
-</article>
-<article>
+    <p>Al jaren klant bij Domein.shop. De service is goed en medewerkers zijn zeer klantvriendelijk. Snelle response,
+        zelfs op momenten dat je het niet verwacht.</p><br>
+    <cite>Jane Doe, Maging Director</cite>
+</section>
+<section class="testimonial-separate">
 <!--    recensie 2-->
+<!--    <span class="quote">"</span>-->
+    <p>Ik ben tevreden over Domein.shop. Met name de snelle reactie op mijn vragen en goede service maakt dat ik TransIP
+        aan iedereen aanbeveel.</p> <br>
+        <cite>John Smith, Frontend Developer</cite>
+    </p>
+    </section>
 </article>
 
-</section>
-<!-------------------------------------------------------------------------->
+
+
+<!---------------------------Klantenservice---------------------------------->
+
 <section>
     <h2>Wij staan voor je klaar</h2>
     <picture>
-        <img src="assets/images/callcenter.jpg" alt="Mensen in callcenter">
+        <img class="main-image" src="assets/images/callcenter.jpg" alt="Mensen in callcenter">
     </picture>
 </section>
-<!-------------------------------------------------------------------------->
+
+<!--------------------------------FAQ---------------------------------------->
+
 <section>
     <h2>Veel gestelde vragen</h2>
 <!--    lijst uitvouw teksten-->
